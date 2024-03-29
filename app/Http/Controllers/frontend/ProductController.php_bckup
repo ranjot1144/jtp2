@@ -1,0 +1,27 @@
+<?php
+
+namespace App\Http\Controllers\frontend;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\RedirectResponse;
+
+use Illuminate\Http\Request;
+
+class ProductController extends Controller
+{
+    public function product() {
+        
+        return view('frontend_view.products.product_page');
+    }
+
+    public function products(Request $request, $id) {
+        $data = array(
+                    'prod_id' => $id
+                );
+        return view('frontend_view.products.product_page', compact('data'));
+    }
+
+    public function filteration() {
+        return view('frontend_view.products.filteration.filteration_page');
+    }
+}

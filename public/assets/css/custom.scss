@@ -1,0 +1,684 @@
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    from {
+        transform: translate(0, 0px);
+    }
+
+    65% {
+        transform: translate(0, 15px);
+    }
+
+    to {
+        transform: translate(0, -0px);
+    }
+}
+
+.bg-image-header {
+    background-position: 10% 192.1px !important;
+}
+
+.arrow_icon {
+    margin-top: 30px;
+
+    img {
+        max-width: 50px;
+    }
+}
+
+header {
+    .mobile_logo {
+        display: none;
+    }
+
+    .megamenu_d {
+
+        .site-logo {
+            // background: #fff;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .flexdropdownmenu {
+            display: none;
+        }
+    }
+
+    .sidebar-bottom {
+        color: #fff;
+        position: absolute;
+        bottom: 10px;
+        z-index: 99999;
+        max-width: 295px;
+        width: 100%;
+
+        .sidebar_rel {
+            padding: 0px 20px;
+            position: relative;
+
+            .privacy_sec {
+                display: grid;
+                font-size: 14px;
+
+                a {
+                    color: #fff;
+                }
+            }
+
+            .sidebar-bottom-img {
+                display: flex;
+                gap: 0px 15px;
+                width: 100%;
+                margin-top: 30px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .social_icons {
+                margin: 30px 0;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+
+.search-container {
+    max-width: 400px;
+    position: relative;
+    margin: auto;
+}
+
+.mobilemenu {
+    display: none;
+}
+
+.row {
+    margin-right: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .bg-image-header {
+        background-position: 10% 679.1px !important;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .bg-image-header {
+        background-position: 10% 459.1px !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .avbook32 {
+        font-size: 22px;
+    }
+
+    .avbook40 {
+        font-size: 18px;
+    }
+
+    .teaser.hover_icon.text-center {
+        padding: 10px;
+    }
+
+    #industry_body .container div a {
+        font-size: 12px;
+    }
+
+    .industry_content_css {
+        padding: 10px 5px;
+    }
+
+    .search-container {
+        width: 70%;
+        margin-top: 30%;
+    }
+
+    .nsr22 {
+        font-size: 15px;
+    }
+
+    #about-us-outer {
+        padding: 4em 0em;
+    }
+
+    .nsr25 {
+        font-size: 16px;
+    }
+
+    .range_name label {
+        margin: 10px;
+    }
+
+    .nsm20 {
+        font-size: 15px;
+    }
+
+    .flexdropdownmenu {
+        top: 110px;
+    }
+
+    .sidebar_rel {
+        font-size: 14px;
+        padding: 15px 45px !important;
+    }
+
+    img.image-50 {
+        height: 7pc;
+    }
+
+    .carousel-img-fit {
+        min-height: 400px !important;
+        max-height: 400px !important;
+    }
+
+    #meet figure img {
+        height: 120px;
+    }
+
+    figure img {
+        height: auto;
+    }
+
+    .site-section {
+        padding: 2em 4em;
+    }
+
+    #about-us {
+        padding: 0em 0em;
+    }
+
+    .bg-image-header {
+        background-position: 21% 944px !important;
+    }
+
+    #prod_content_section {
+
+        .prod_name label {
+            font-size: 12px;
+        }
+
+        img {
+            height: 200px !important;
+        }
+    }
+
+    #industry_body .container div img {
+        width: 100%;
+    }
+
+    #about-us-outer .row {
+        margin-right: -0px;
+    }
+
+    .row {
+        margin-right: -2.5px;
+    }
+
+    #phTestingStrip_image img {
+        height: 250px !important;
+    }
+
+    header .megamenu_d .site-logo {
+        margin-bottom: 0px !important;
+    }
+
+    .image-90 {
+        width: 70%;
+    }
+
+    // .container {
+    //     width: 650px;
+    // }
+
+    .img-fluid {
+        height: 210px;
+    }
+
+    #prod-section-nav .navbar-filter-papers a {
+        font-size: 12px;
+    }
+
+    #prod-section-nav .form-control {
+        font-size: 12px;
+    }
+
+    #industry-section-carousel h2 {
+        margin: 35px;
+    }
+
+    .owl-carousel.slide-one-item.home-slider.owl-loaded.owl-drag {
+        padding: 0 125px;
+    }
+
+    .carousel-ban-text-adj {
+        bottom: 150px;
+        margin-left: 50px;
+    }
+
+    .owl-stage .owl-item .item {
+        p {
+            font-size: 14px;
+        }
+
+        img {
+            height: 140px !important;
+            padding: 20px 0px !important;
+            width: 70% !important;
+        }
+    }
+
+    /*.item img {
+        height: 140px !important;
+        padding: 20px 0px !important;
+    }*/
+
+    .slide-one-item.home-slider .owl-nav {
+        width: 70%;
+    }
+
+    .service-logo {
+        height: 38vh;
+    }
+
+    #product_banner img {
+        height: 350px;
+    }
+
+    .avbook28 {
+        font-size: 15px !important;
+    }
+
+    .avbook20 {
+        font-size: 12px !important;
+    }
+
+    #meet {
+        padding: 2em 2em;
+    }
+
+    .content-padding {
+        padding: 5em 4em;
+    }
+
+    #other-product {
+        padding: 2em 4em;
+    }
+
+    .card-header li a {
+        font-size: 14px;
+    }
+
+    .card-body {
+        font-size: 12px;
+    }
+
+    #section-bio {
+        padding: 2em 4em !important;
+
+        .col-md-12 {
+            font-size: 14px;
+        }
+    }
+
+    .img-fluid {
+        height: 100px !important;
+    }
+
+    #test-strip-filteration {
+        height: 25vh !important;
+        min-height: 200px !important;
+
+        .row.justify-content-center.align-items-center {
+            height: 25vh !important;
+            min-height: 200px !important;
+
+            img.img-fluid {
+                height: 70px !important;
+            }
+        }
+
+        .text-white p {
+            margin-bottom: 0rem;
+        }
+    }
+
+    #contact_us_footer {
+        padding: 2em !important;
+    }
+
+    #blue-banner {
+        img {
+            width: 80%;
+        }
+    }
+
+    img.catalouge_image {
+        height: 8pc;
+    }
+
+    #section-nav {
+        padding: 2em;
+
+        .another-text {
+            margin: 0% !important;
+        }
+
+        .img_hover_color img {
+            width: -webkit-fill-available !important;
+            height: 200px;
+        }
+    }
+
+    .main-content {
+        width: calc(100% - 295px);
+        float: right;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main-content {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .mobilemenu {
+        display: none;
+    }
+
+    .top-margin {
+        margin: auto;
+        top: 20%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .avbook32 {
+        font-size: 25px;
+    }
+
+    .teaser.hover_icon.text-center {
+        padding: 20px;
+    }
+
+    .service-logo {
+        height: 38vh;
+    }
+
+    #prod_content_section img {
+        height: 150px !important
+    }
+
+    .accordion-div button.accordion {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    table tr th {
+        font-size: 14px;
+    }
+
+    table tr td {
+        font-size: 12px;
+    }
+
+    th,
+    td {
+        padding: 5px;
+    }
+
+    table thead th:first-child {
+        padding-left: 20px;
+    }
+
+    table tbody td:first-child {
+        padding-left: 20px;
+    }
+
+    #table_presentation_data .content_description {
+        font-size: 12px;
+    }
+
+    #prod_content_section .content_description {
+        font-size: 12px;
+    }
+
+    #table_presentation_data table {
+        margin-bottom: 20px;
+    }
+
+    #table_presentation_data .accordion {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    #table_presentation_data .panel p {
+        font-size: 12px;
+    }
+
+    .ranges_prod img {
+        padding-top: 0px;
+    }
+
+    #industry-section-carousel h2 {
+        margin: 20px;
+    }
+
+
+    header {
+        width: 100%;
+
+        .megamenu_d {
+            display: none;
+        }
+
+        .mobile_logo {
+            display: block;
+            max-width: 150px;
+        }
+
+        .desktop_logo {
+            display: none;
+        }
+
+        .mobilemenu {
+            display: block;
+
+            .header_mobile {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 15px;
+                background: #fff;
+                position: fixed;
+                z-index: 3;
+                width: 100%;
+            }
+
+            .burger-btn {
+                align-items: center;
+                cursor: pointer;
+                display: block;
+                display: flex;
+                height: 2rem;
+                justify-content: center;
+                margin-left: 1rem;
+                overflow: hidden;
+                position: relative;
+                width: 2rem;
+            }
+
+            .burger-btn:after {
+                background-position: 50%;
+                background-repeat: no-repeat;
+                content: "";
+                height: 2rem;
+                position: absolute;
+                background-image: url(../images/menu/navbar.svg);
+                transition: right 0.3s ease-in-out;
+                width: 2rem;
+            }
+        }
+
+        .zeynep {
+            position: relative;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 9;
+            top: 0;
+            left: 0;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 0px;
+
+            .zeynep {
+                position: relative;
+                height: 100%;
+            }
+
+            .sidebar-top {
+                display: flex;
+                padding: 15px;
+                border-bottom: #ea9af2 solid 2px;
+            }
+
+            .closebtn {
+                position: relative;
+                top: 0;
+                right: 0px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+
+            .closebtn::after {
+                background-position: 50%;
+                background-repeat: no-repeat;
+                content: "";
+                height: 2rem;
+                position: absolute;
+                transition: right 0.3s ease-in-out;
+                width: 2rem;
+                background-image: url(../images/menu/close-navbar.svg);
+            }
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 0px;
+            text-decoration: none;
+            font-size: 14px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .contact_btn {
+            position: absolute;
+            bottom: 0;
+            width: 88%;
+            margin: 32px 15px;
+
+            .btn {
+                width: 100%;
+                background-color: #ad03bf;
+                justify-content: center;
+                color: #fff;
+            }
+        }
+    }
+
+    /*.service-logo {
+        height: 25vh !important;
+    }*/
+
+    .flexdropdownmenu {
+        display: none !important;
+    }
+
+    .intro_section {
+        overflow: hidden !important;
+    }
+
+    .sidenav.menu-expand {
+        width: 80%;
+    }
+
+    .search-container {
+        max-width: unset;
+    }
+
+    .main-content .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .overlay-menu {
+        background: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        z-index: 3;
+    }
+
+    img.image-50 {
+        height: 115px;
+        margin-bottom: 20px;
+    }
+
+    figure img {
+        width: -webkit-fill-available;
+        height: auto;
+    }
+
+    .site-section {
+        padding: 5em 0em;
+    }
+}
